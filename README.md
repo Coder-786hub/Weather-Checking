@@ -1,69 +1,69 @@
 # Weather App
 
-A simple weather application built using Python's Tkinter, Geopy, TimezoneFinder, and OpenWeatherMap API.
-
-## Table of Contents
-
-1. [Features](#features)
-2. [Installation](#installation)
-    - [Prerequisites](#prerequisites)
-    - [Clone the Repository](#clone-the-repository)
-    - [Setup Virtual Environment](#setup-virtual-environment)
-    - [Install Dependencies](#install-dependencies)
-    - [API Key Configuration](#api-key-configuration)
-    - [Run the Application](#run-the-application)
-3. [Usage](#usage)
-4. [Project Structure](#project-structure)
-5. [Dependencies](#dependencies)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Contact](#contact)
+This is a simple weather application built using Python and Tkinter. It fetches current weather information for a specified city using the OpenWeatherMap API and displays it in a user-friendly graphical interface.
 
 ## Features
 
-- Search weather information by city name
-- Display current time of the searched city
-- Show weather conditions including temperature, wind speed, humidity, description, and pressure
+- Displays current temperature, weather condition, wind speed, humidity, description, and pressure for a specified city.
+- Shows local time of the specified city.
+- User-friendly interface with a search box and search button.
+
+## Requirements
+
+- Python 3.x
+- Tkinter
+- Geopy
+- TimezoneFinder
+- Requests
+- Pytz
 
 ## Installation
 
-### Prerequisites
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/weather-app.git
+    ```
 
-- Python 3.x
-- Virtual environment tool (optional but recommended)
+2. Change into the project directory:
+    ```bash
+    cd weather-app
+    ```
 
-### Clone the Repository
+3. Install the required Python packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-```bash
-git clone https://github.com/yourusername/weather-app.git
-cd weather-app
-Setup Virtual Environment
-It is recommended to use a virtual environment to manage dependencies:
+4. Replace `'YOUR_API_KEY'` in the code with your actual OpenWeatherMap API key.
 
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-Install Dependencies
-Install the required dependencies using pip:
+## Running the Application
 
-bash
-Copy code
-pip install -r requirements.txt
-API Key Configuration
-Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key in the script (main.py):
+1. Run the Python script:
+    ```bash
+    python weather_app.py
+    ```
 
-python
-Copy code
-API_KEY = 'YOUR_API_KEY'
-Run the Application
-Start the application:
+2. The application window will appear. Enter the name of a city in the search box and click the search icon to fetch the current weather information for that city.
 
-bash
-Copy code
-python main.py
-Usage
-Enter the city name in the search box.
-Click the search icon or press Enter.
-The current weather information and local time of the city will be displayed.
+## Files
 
+- `weather_app.py`: The main Python script for the weather application.
+- `requirements.txt`: List of required Python packages.
+- `icon.ico`: Icon for the application window.
+- `search.png`, `search_icon.png`, `logo.png`, `box.png`: Image files used in the application.
+
+## Screenshots
+
+![Search Box](screenshots/search_box.png)
+![Weather Information](screenshots/weather_info.png)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- [OpenWeatherMap API](https://openweathermap.org/api) for providing weather data.
+- [Geopy](https://github.com/geopy/geopy) for geocoding services.
+- [TimezoneFinder](https://github.com/jannikmi/timezonefinder) for finding the timezone of a location.
+- [Pytz](https://github.com/stub42/pytz) for handling timezone conversions.
