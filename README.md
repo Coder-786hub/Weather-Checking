@@ -2,20 +2,16 @@
 
 This is a simple weather application built using Python and Tkinter. It fetches current weather information for a specified city using the OpenWeatherMap API and displays it in a user-friendly graphical interface.
 
+## Screenshots
+
+![Search Box](Search_Box.png)
+![Weather Information](Weather_Information.png)
+
 ## Features
 
 - Displays current temperature, weather condition, wind speed, humidity, description, and pressure for a specified city.
 - Shows local time of the specified city.
 - User-friendly interface with a search box and search button.
-
-## Requirements
-
-- Python 3.x
-- Tkinter
-- Geopy
-- TimezoneFinder
-- Requests
-- Pytz
 
 ## Installation
 
@@ -50,12 +46,6 @@ This is a simple weather application built using Python and Tkinter. It fetches 
 - `weather_app.py`: The main Python script for the weather application.
 - `requirements.txt`: List of required Python packages.
 - `icon.ico`: Icon for the application window.
-- `search.png`, `search_icon.png`, `logo.png`, `box.png`: Image files used in the application.
-
-## Screenshots
-
-![Search Box](screenshots/search_box.png)
-![Weather Information](screenshots/weather_info.png)
 
 ## License
 
