@@ -17,7 +17,7 @@ This is a simple weather application built using Python and Tkinter. It fetches 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/weather-app.git
+    git clone https://github.com/Coder-786hub/weather-app.git
     ```
 
 2. Change into the project directory:
